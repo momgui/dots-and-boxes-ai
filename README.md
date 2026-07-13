@@ -1,8 +1,10 @@
 # dots-and-boxes-ai
 
-Deux agents d'IA pour le jeu **Dots and Boxes** (La Pipopipette), développés pour le tournoi du cours d'**IA symbolique** (L3, Université Paris-Saclay, 2026) :
+🏆 **Vainqueur du tournoi** d'agents du cours d'**IA symbolique** (L3, Université Paris-Saclay, 2026) — 1ère place sur 8 équipes.
 
-1. **Alpha-Beta + Table de transposition** (`src/alphabeta/`) — l'agent aligné en tournoi
+Deux agents d'IA pour le jeu **Dots and Boxes** (La Pipopipette) :
+
+1. **Alpha-Beta + Table de transposition** (`src/alphabeta/`) — l'agent vainqueur du tournoi
 2. **MCTS parallélisé** (`src/mcts/`) — variante Monte-Carlo développée en parallèle pour comparaison
 
 > ⚠️ Ce repo contient uniquement **ma stratégie** — le moteur de jeu (`Board`, `Action`, arbitre, infrastructure de tournoi) est fourni par l'équipe enseignante et n'est pas redistribué ici. Le code ne compile donc pas de façon autonome : il est publié comme **étude de cas d'implémentation** d'algorithmes de recherche adversariale.
@@ -98,4 +100,4 @@ src/
 
 ## Contexte
 
-Tournoi d'agents du cours d'IA symbolique, L3 Math-Info, Université Paris-Saclay (avril 2026). Le moteur de jeu et l'infrastructure de tournoi sont la propriété de l'équipe enseignante.
+Tournoi d'agents du cours d'IA symbolique, L3 Math-Info, Université Paris-Saclay (avril 2026) — **1ère place sur 8 équipes**, en équipe. Le moteur de jeu et l'infrastructure de tournoi sont la propriété de l'équipe enseignante.
