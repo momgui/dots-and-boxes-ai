@@ -11,7 +11,7 @@ Deux agents d'IA pour le jeu **Dots and Boxes** (La Pipopipette), développés p
 
 Sous ses airs de jeu d'enfant, Dots and Boxes a deux propriétés qui piègent les algorithmes naïfs :
 
-- **Le tour ne alterne pas toujours** : fermer une case fait rejouer immédiatement. Le minimax standard "MAX puis MIN puis MAX…" est faux — il faut décider à chaque nœud qui joue le prochain coup.
+- **Le tour n'alterne pas toujours** : fermer une case fait rejouer immédiatement. Le minimax standard "MAX puis MIN puis MAX…" est faux — il faut décider à chaque nœud qui joue le prochain coup.
 - **La fin de partie est combinatoire** : le jeu se décide sur le contrôle des *chaînes* et des *boucles*. La technique du **double-dealing** (sacrifier volontairement 2 cases pour garder la main) est contre-intuitive : l'agent glouton qui prend tout ce qu'il peut perd contre un agent qui sait donner.
 
 ## Agent principal : Alpha-Beta + Table de transposition
