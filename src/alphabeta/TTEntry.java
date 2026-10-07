@@ -1,6 +1,6 @@
 package dotsandboxes.alphabeta;
 
-import DotsBoxes.board.Action;
+import engine.Action;
 
 /**
  * Une entrée dans la table de transposition.

@@ -1,6 +1,6 @@
 package dotsandboxes.alphabeta;
 
-import DotsBoxes.board.Board;
+import engine.Board;
 
 /**
  * Heuristique v2 optimisée pour Dots and Boxes + Alpha-Beta.

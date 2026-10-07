@@ -1,20 +1,14 @@
 package dotsandboxes.mcts;
 
-import DotsBoxes.board.Action;
-import DotsBoxes.board.Board;
-import DotsBoxes.player.ActionStrategy;
+import engine.Action;
+import engine.Board;
+import engine.ActionStrategy;
 
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 
-/**
- * Version etudiants.
- * TODO:
- * - Concevoir une strategie experte (heuristique + ordre de coups).
- * - Optionnel: utiliser une table de transposition.
- */
 public class ParallelMCTSStrategy implements ActionStrategy {
     private final int iterations;
     private final long timeBudget;

@@ -1,6 +1,6 @@
 package dotsandboxes.alphabeta;
 
-import DotsBoxes.board.Action;
+import engine.Action;
 import java.util.Arrays;
 
 /**

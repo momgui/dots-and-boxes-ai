@@ -1,6 +1,6 @@
 package dotsandboxes.alphabeta;
 
-import DotsBoxes.board.Board;
+import engine.Board;
 
 import java.util.Random;
 

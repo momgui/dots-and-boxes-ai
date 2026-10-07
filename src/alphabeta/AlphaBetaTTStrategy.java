@@ -1,9 +1,9 @@
 package dotsandboxes.alphabeta;
 
 import java.lang.reflect.Field;
-import DotsBoxes.board.Action;
-import DotsBoxes.board.Board;
-import DotsBoxes.player.ActionStrategy;
+import engine.Action;
+import engine.Board;
+import engine.ActionStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -443,10 +443,8 @@ public class AlphaBetaTTStrategy implements ActionStrategy {
         return count; // 0, 1 ou 2
     }
 
-    // 1. Fonction utilitaire pour "craquer" l'encapsulation de la classe Board
     private int[][] getPrivateBoxes(Board board) {
         try {
-            // Remplace "boxes" par le vrai nom de la variable privée dans la classe Board si besoin
             Field field = board.getClass().getDeclaredField("boxes");
             field.setAccessible(true); // Fait sauter la protection private
             return (int[][]) field.get(board);
@@ -456,7 +454,6 @@ public class AlphaBetaTTStrategy implements ActionStrategy {
         }
     }
 
-    // 2. Ta fonction undo corrigée
     public void undo(Board board, Action action) {
         int r = action.getRow();
         int c = action.getCol();
