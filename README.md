@@ -4,7 +4,7 @@ Dots and Boxes agent: alpha-beta + PVS + Zobrist transposition table + chain-par
 
 ![Final position of game 1 of the alpha-beta vs Greedy benchmark: alpha-beta 19, Greedy 6](docs/final-board.png)
 
-Built by a team of five for the Symbolic AI course tournament at Université Paris-Saclay (1st of 8 teams); I wrote about 40% of the code. This repository contains the agent code.
+Built by a team of five for the Symbolic AI course tournament at Université Paris-Saclay (1st of 8 teams). This repository contains the agent code.
 
 ## Run it
 
